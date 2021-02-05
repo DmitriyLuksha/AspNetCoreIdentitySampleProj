@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-AspNetCoreIdentitySampleProj-E6C4736B-F395-4B40-BDC7-57BF0784D6A9</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Migrations\00000000000000_CreateIdentitySchema.cs" />
+    <Compile Remove="Data\Migrations\00000000000000_CreateIdentitySchema.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210204170559_Identity.cs" />
+    <Compile Remove="Data\Migrations\20210204170559_Identity.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210204171214_Identity2.cs" />
+    <Compile Remove="Data\Migrations\20210204171214_Identity2.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210204171256_Identity.cs" />
+    <Compile Remove="Data\Migrations\20210204171256_Identity.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210204172205_Identity.cs" />
+    <Compile Remove="Data\Migrations\20210204172205_Identity.Designer.cs" />
+    <Compile Remove="Data\Migrations\20210204172428_Identity.cs" />
+    <Compile Remove="Data\Migrations\20210204172428_Identity.Designer.cs" />
+    <Compile Remove="Migrations\20210204172538_Identity.cs" />
+    <Compile Remove="Migrations\20210204172538_Identity.Designer.cs" />
+    <Compile Remove="Migrations\20210204172553_Identity2.cs" />
+    <Compile Remove="Migrations\20210204172553_Identity2.Designer.cs" />
+    <Compile Remove="Migrations\20210204173113_Identity.cs" />
+    <Compile Remove="Migrations\20210204173113_Identity.Designer.cs" />
+    <Compile Remove="Migrations\20210204173456_Identity.cs" />
+    <Compile Remove="Migrations\20210204173456_Identity.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Google" Version="3.1.11" />
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Migrations\" />
+  </ItemGroup>
+
+</Project>
